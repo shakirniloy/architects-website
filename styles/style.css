@@ -99,7 +99,7 @@ body {
 /* header styles end */
 
 /* main styles start */
-/* feature list styles */
+/* feature list styles start */
 .features-list {
     display: flex;
     align-items: center;
@@ -145,4 +145,88 @@ body {
 .feature-details {
     padding: 25px 0 30px;
 }
+/* feature list styles end*/
+
+/* favorite feature styles start*/
+.favorite-feature {
+    display: flex;
+    gap: 140px;
+    margin-bottom: 170px;
+}
+
+/* favorite feature info styles */
+.favorite-feature-info {
+    width: 40%;
+    flex-shrink: 0;
+}
+
+.favorite-feature-header {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.favorite-feature-details {
+    padding: 25px 0 30px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-header {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+/* favorite feature image styles */
+.favorite-feature-image-container {
+    width: 60%;
+    position: relative;
+}
+
+.favorite-feature-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/architect.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.big-btn {
+    display: inline-block;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 42px 45px;
+    position: absolute;
+    bottom: -56px;
+    left: -90px;
+}
+
+.big-btn-header {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.big-btn-small-text {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* favorite feature styles end*/
 /* main styles end */
