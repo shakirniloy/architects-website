@@ -26,6 +26,17 @@ body {
     border: none;
 }
 
+.primary-details {
+    color: #727272;
+    line-height: 26px;
+}
+
+.common-header {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
 /* header styles start */
 .header {
     background-color: #fff4e7;
@@ -37,7 +48,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-top: 50px; */
 }
 
 .logo {
@@ -76,8 +86,6 @@ body {
 }
 
 .banner-description {
-    color: #727272;
-    line-height: 26px;
     padding: 30px 0;
 }
 
@@ -89,3 +97,52 @@ body {
     width: 100%;
 }
 /* header styles end */
+
+/* main styles start */
+/* feature list styles */
+.features-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    width: 95%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 85px 25px 130px;
+}
+
+/* feature gallery styles */
+.feature-gallery {
+    flex-shrink: 0;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+
+.feature-image {
+    width: 100%;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+/* feature info styles */
+.feature-info {
+    width: 40%;
+}
+.thin-header {
+    font-weight: 500;
+    color: #727272;
+}
+
+.orange-header {
+    color: #FF900E;
+}
+
+.feature-details {
+    padding: 25px 0 30px;
+}
+/* main styles end */
