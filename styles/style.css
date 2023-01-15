@@ -308,5 +308,47 @@ body {
 }
 /* benefits styles end */
 
+/* sponsors styles start */
+.sponsors {
+    margin: 130px auto;
+}
 
+/* sponsors info styles */
+.sponsors-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsor-details {
+    padding: 25px 0 50px;
+}
+
+/* sponsors logo styles */
+.sponsors-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 130px);
+    justify-content: space-between;
+    grid-gap: 50px 100px;
+}
+
+.sponsors-logos img {
+    width: 100%;
+    filter: grayscale(1);
+}
+/* sponsors styles end */
 /* main styles end */
+
+/* footer styles start */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-text {
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding: 40px 0;
+}
+/* footer styles end */
