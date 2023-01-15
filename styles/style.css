@@ -368,6 +368,10 @@ body {
         text-align: center;
     }
 
+    .banner-information {
+        width: 100%;
+    }
+
     /* features list responsive */
 
     .features-list {
