@@ -118,7 +118,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
-    /* grid-template-rows: repeat(2, 1fr); */
 }
 
 .feature-image {
@@ -430,13 +429,11 @@ body {
     /* sponsors responsive */
     .sponsors-info {
         width: 100%;
-        /* margin: 0 auto; */
     }
 
     .sponsors-logos {
         grid-template-columns: repeat(1, 130px);
         justify-content: center;
-        /* grid-gap: 50px 100px; */
     }
 }
 
@@ -519,6 +516,5 @@ body {
     .sponsors-logos {
         grid-template-columns: repeat(auto-fit, 130px);
         justify-content: center;
-        /* grid-gap: 50px 100px; */
     }
 }
